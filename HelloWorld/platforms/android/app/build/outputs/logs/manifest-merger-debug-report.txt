@@ -1,0 +1,136 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:3:2-39
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:5:2-27
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:4:2-25
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
+MERGED from [:nativescript-optimized:] C:\Users\Fudalii\.android\build-cache\9f4f2938c8f82db11dc081644ccbd613aafdb76a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] C:\Users\Fudalii\.android\build-cache\8448a3d963e05cdf9cfe1ffa90b552230607a2d1\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\dd5d79c1ce55faa27c36b6613162400d36935f61\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\155ffefc52403a0d92046ab68d96205b05166991\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\f95fe68b1e2e45e3989f8794e184bfe20e97b7b3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\9bc94cfcfade3aeb6b27987ca5cd25906f0edb21\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\1a184704784b34e3040f6144e22135e58b2181af\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\5a530c168a23c92b9b12c5c2a88627fda04eada9\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\875cd27c348f3c03fa2c0d7d5db56e018c2228e3\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\77ba3ab49982b8c94a1d253683cb74402674edaf\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\3e16606626e4deabb311ff790a1fc83215447727\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\d569205989dbb22f37f952659dbff19a9b37102c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\facb46336aac66da1055c42e47ec0a62ab639ffb\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\be37ca74f44dd6b17dc99efb727b071fc6114cbb\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\dd5d79c1ce55faa27c36b6613162400d36935f61\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:15:3-32
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:19:2-63
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
+application
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
+MERGED from [:widgets-release:] C:\Users\Fudalii\.android\build-cache\8448a3d963e05cdf9cfe1ffa90b552230607a2d1\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\dd5d79c1ce55faa27c36b6613162400d36935f61\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\155ffefc52403a0d92046ab68d96205b05166991\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\f95fe68b1e2e45e3989f8794e184bfe20e97b7b3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\9bc94cfcfade3aeb6b27987ca5cd25906f0edb21\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\5a530c168a23c92b9b12c5c2a88627fda04eada9\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\875cd27c348f3c03fa2c0d7d5db56e018c2228e3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\77ba3ab49982b8c94a1d253683cb74402674edaf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\3e16606626e4deabb311ff790a1fc83215447727\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\d569205989dbb22f37f952659dbff19a9b37102c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\facb46336aac66da1055c42e47ec0a62ab639ffb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\be37ca74f44dd6b17dc99efb727b071fc6114cbb\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:25:3-35
+	android:allowBackup
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:23:3-29
+	android:icon
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:24:3-32
+	android:theme
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:34:15-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\HelloWorld\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\dd5d79c1ce55faa27c36b6613162400d36935f61\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\155ffefc52403a0d92046ab68d96205b05166991\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\f95fe68b1e2e45e3989f8794e184bfe20e97b7b3\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\9bc94cfcfade3aeb6b27987ca5cd25906f0edb21\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\1a184704784b34e3040f6144e22135e58b2181af\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\5a530c168a23c92b9b12c5c2a88627fda04eada9\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\875cd27c348f3c03fa2c0d7d5db56e018c2228e3\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\77ba3ab49982b8c94a1d253683cb74402674edaf\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\3e16606626e4deabb311ff790a1fc83215447727\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\d569205989dbb22f37f952659dbff19a9b37102c\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\facb46336aac66da1055c42e47ec0a62ab639ffb\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\be37ca74f44dd6b17dc99efb727b071fc6114cbb\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\dd5d79c1ce55faa27c36b6613162400d36935f61\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Fudalii\.android\build-cache\dd5d79c1ce55faa27c36b6613162400d36935f61\output\AndroidManifest.xml:26:9-47

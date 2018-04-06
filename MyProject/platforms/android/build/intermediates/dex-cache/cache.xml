@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fudalii\.android\build-cache\8f6759c1b9afbfaa7331c993277dbee4a5405b84\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\MyProject\platforms\android\app\build\intermediates\pre-dexed\debug\classes_9f090aac72038dd03e6aa442cda8d5a56282fc10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Fudalii\.android\build-cache\b3beda838247e2a5562cae033f27b25b494242aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="F:\Visual 2013\Kurs JS\Angular_NativeScript\angular_NativeSctipt\MyProject\platforms\android\app\build\intermediates\pre-dexed\debug\classes_350da6ea2d1f2237b9b812691eac37e78a5d34f3.jar" />
+    </item>
+
+</items>

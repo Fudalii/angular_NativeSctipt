@@ -1,0 +1,4 @@
+#Thu Apr 05 17:25:38 CEST 2018
+base.0=F\:\\Visual 2013\\Kurs JS\\Angular_NativeScript\\angular_NativeSctipt\\HelloWorld\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=F\:\\Visual 2013\\Kurs JS\\Angular_NativeScript\\angular_NativeSctipt\\HelloWorld\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
