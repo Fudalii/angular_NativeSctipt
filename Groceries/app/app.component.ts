@@ -33,10 +33,10 @@ export class AppComponent {
   signUp() {
     this.userService.register(this.user).subscribe(
       () => {
-        alert("Your account was successfully created.");
+        alert("Konto utworzone pomyslnie.");
         this.toggleDisplay();
       },
-      () => alert("Unfortunately we were unable to create your account.")
+      () => alert("Nie moglismky utworzyc konta .")
     );
   }
 

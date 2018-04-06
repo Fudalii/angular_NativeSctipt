@@ -1,3 +1,4 @@
+import {NativeScriptHttpClientModule} from 'nativescript-angular/http-client';
 import { NgModule } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -10,7 +11,8 @@ import { NativeScriptHttpModule } from 'nativescript-angular/http';
   imports: [
     NativeScriptModule,
     NativeScriptFormsModule,
-    NativeScriptHttpModule
+    NativeScriptHttpModule,
+    NativeScriptHttpClientModule
   ],
 
   declarations: [AppComponent],
