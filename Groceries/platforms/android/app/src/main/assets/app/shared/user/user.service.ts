@@ -1,5 +1,7 @@
 import { Injectable } from "@angular/core";
-import { Http, Headers, Response } from "@angular/http";
+//import { Headers, Response, Http } from "@angular/http";
+import { HttpClient, HttpHeaders, HttpResponse, HttpParams } from "@angular/common/http";
+import { Router } from "@angular/router";
 import { Observable } from "rxjs/Observable";
 import "rxjs/add/operator/catch";
 import "rxjs/add/operator/do";
@@ -10,32 +12,43 @@ import { Config } from "../config";
 
 @Injectable()
 export class UserService {
-  constructor(private http:Http) {}
+  constructor(private http: HttpClient, private router: Router) {}
 
   register(user: User) {
-    return this.http
-      .post(
-        Config.apiUrl + "user/" + Config.appKey,
-        JSON.stringify({
-          username: user.email,
-          email: user.email,
-          password: user.password
-        }),
-        { headers: this.getCommonHeaders() }
-      )
-      .catch(this.handleErrors);
+    var userObj ={
+        username: user.email,
+        email: user.email,
+        password: user.password
+    }
+    return this.http.post(Config.apiUrl + "user/" + Config.appKey, userObj, {
+      headers: this.createRequestOptions()
+    });
   }
 
-  getCommonHeaders() {
-    let headers = new Headers();
-    headers.append("Content-Type", "application/json");
-    headers.append("Authorization", Config.authHeader);
-    console.log('ok ok ');
+  private createRequestOptions() {
+    let headers = new HttpHeaders({
+      Authorization: Config.authHeader
+    });
     return headers;
   }
 
-  handleErrors(error: Response) {
-    console.log(JSON.stringify(error.json()));
-    return Observable.throw(error);
+  login(user: User) {
+    var userObj ={
+        username: user.email,
+        password: user.password
+    }
+
+    return this.http
+      .post(Config.apiUrl + "user/" + Config.appKey + "/login", userObj, {
+        headers: this.createRequestOptions()
+      })
+      .subscribe( res => {
+        
+          console.dir(res);
+          this.router.navigate(["/list"]);
+          var xyz = JSON.parse(JSON.stringify(res))
+          Config.token = xyz._kmd.authtoken;  
+        }, error => alert(error));
+   
   }
 }

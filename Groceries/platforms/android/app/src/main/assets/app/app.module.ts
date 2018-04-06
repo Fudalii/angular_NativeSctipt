@@ -1,19 +1,26 @@
 import { NgModule } from "@angular/core";
-import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
-import { AppComponent } from "./app.component";
-import { NativeScriptHttpModule } from 'nativescript-angular/http';
+import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { NativeScriptRouterModule } from "nativescript-angular/router";
 
+import { AppComponent } from "./app.component";
+import { routes, navigatableComponents } from "./app.routing";
+import { NativeScriptHttpClientModule } from 'nativescript-angular/http-client';
 
 @NgModule({
   imports: [
     NativeScriptModule,
     NativeScriptFormsModule,
-    NativeScriptHttpModule
+    NativeScriptHttpClientModule,
+    NativeScriptRouterModule, // routing
+    NativeScriptRouterModule.forRoot(routes) // routing i jego nazwa tablicy z app.route
   ],
 
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    navigatableComponents // routing podajhemy w app.routing nazwy komponentów które tu s wstawiane.
+  ],
 
   bootstrap: [AppComponent]
 })
